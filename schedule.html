@@ -1,99 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Schedule - Campus Events Guide</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>Campus Events Guide</h1>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="events.html">Events</a>
-            <a href="event-details.html">Event Details</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="registration.html">Registration</a>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Check the sample campus event timetable." name="description">
+    <title>Schedule | Campus Events Guide</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a aria-label="Campus Events Guide at Zewail City home" class="site-brand" href="index.html"><img alt="Zewail City of Science and Technology logo" class="site-logo" src="assets/zewail-city-logo.jpg"> <span class="brand-copy"><strong>Campus Events Guide</strong> <small>Zewail City of Science and Technology</small></span></a>
+        <div class="theme-control">
+          <input aria-label="Toggle dark mode" class="theme-toggle" id="theme-toggle" type="checkbox">
+          <label for="theme-toggle">Dark mode</label>
+        </div>
+        <nav aria-label="Main navigation" class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="event-details.html">Event details</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="registration.html">Register</a>
         </nav>
+      </div>
     </header>
-
     <main>
-        <section>
-            <h2>Tech Innovation Day 2026</h2>
-
-            <p>Date: 19 November 2026</p>
-            <p>Time: 10:00 AM - 4:00 PM</p>
-            <p>Location: Zewail City</p>
-        </section>
-
-        <section>
-            <h2>Event Schedule</h2>
-
+      <section class="page-width section-space">
+        <div class="page-intro">
+          <p class="eyebrow">PLAN YOUR VISIT</p>
+          <h1>Campus event timetable</h1>
+          <p>Check dates, times, and venues. All entries are sample details for this student project, not official university announcements.</p>
+        </div>
+        <section class="table-panel">
+          <h2>September–December 2026</h2>
+          <div aria-label="Scrollable event timetable" class="table-wrapper" role="region" tabindex="0">
             <table>
-                <thead>
-                    <tr>
-                        <th>Time</th>
-                        <th>Activity</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>10:00 AM - 10:30 AM</td>
-                        <td>Registration</td>
-                        <td>Welcome attendees and complete registration.</td>
-                    </tr>
-
-                    <tr>
-                        <td>10:30 AM - 11:00 AM</td>
-                        <td>Opening Session</td>
-                        <td>Introduction to Tech Innovation Day.</td>
-                    </tr>
-
-                    <tr>
-                        <td>11:00 AM - 12:30 PM</td>
-                        <td>Technology Presentations</td>
-                        <td>Explore new technologies and student projects.</td>
-                    </tr>
-
-                    <tr>
-                        <td>12:30 PM - 1:30 PM</td>
-                        <td>Break</td>
-                        <td>Take a break and meet other participants.</td>
-                    </tr>
-
-                    <tr>
-                        <td>1:30 PM - 3:00 PM</td>
-                        <td>Project Exhibition</td>
-                        <td>Discover innovative projects and ideas.</td>
-                    </tr>
-
-                    <tr>
-                        <td>3:00 PM - 4:00 PM</td>
-                        <td>Closing Session</td>
-                        <td>Review the event highlights and close the event.</td>
-                    </tr>
-                </tbody>
+              <caption>Campus events schedule</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Event</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Time</th>
+                  <th scope="col">Venue</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="featured-row">
+                  <td><a href="event-details.html">Tech Innovation Day 2026</a> <span class="table-note">Featured event</span></td>
+                  <td>19 November 2026</td>
+                  <td>10:00 AM–4:00 PM</td>
+                  <td>Zewail City Campus Auditorium (sample venue)</td>
+                </tr>
+                <tr>
+                  <td><a href="events.html#career-fair">Career & Internship Fair</a></td>
+                  <td>24 November 2026</td>
+                  <td>11:00 AM–3:00 PM</td>
+                  <td>Innovation Hall (sample venue)</td>
+                </tr>
+                <tr>
+                  <td><a href="events.html#cultural-festival">Campus Cultural Festival</a></td>
+                  <td>2 December 2026</td>
+                  <td>12:00 PM–6:00 PM</td>
+                  <td>Central Courtyard (sample venue)</td>
+                </tr>
+                <tr>
+                  <td><a href="events.html#past-events">Welcome Week Meetup</a></td>
+                  <td>10 September 2026</td>
+                  <td>1:00 PM–3:00 PM</td>
+                  <td>Student Plaza (sample venue)</td>
+                </tr>
+              </tbody>
             </table>
+          </div>
+          <p class="table-help">On a small screen, swipe horizontally inside the table area to read every column.</p>
+          <a class="button" href="registration.html">Register for Tech Innovation Day</a>
         </section>
-
-        <section>
-            <h2>Attend the Event</h2>
-
-            <p>Interested in joining us? Register for Tech Innovation Day 2026.</p>
-
-            <a href="registration.html">Register Now</a>
-        </section>
+      </section>
     </main>
-
-    <footer>
-        <p>Campus Events Guide - SW302</p>
-        <p>Student: Shehab Osama | ID: 202402196</p>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <strong>Campus Events Guide · Zewail City</strong>
+          <p>Discover. Connect. Take part.</p>
+        </div>
+        <nav aria-label="Social media links" class="social-links">
+          <a href="https://www.facebook.com/ZewailCity/" rel="noopener noreferrer" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/zewailcity/" rel="noopener noreferrer" target="_blank">Instagram</a>
+          <a href="https://www.linkedin.com/school/zewail-city-of-science-and-technology/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+        </nav>
+        <p class="copyright">© 2026 Campus Events Guide · Student project concept, not an official university service.</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

@@ -1,79 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Details - Campus Events Guide</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>Campus Events Guide</h1>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="events.html">Events</a>
-            <a href="event-details.html">Event Details</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="registration.html">Registration</a>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Details, agenda, media, and review form for Tech Innovation Day 2026." name="description">
+    <title>Tech Innovation Day | Campus Events Guide</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a aria-label="Campus Events Guide at Zewail City home" class="site-brand" href="index.html"><img alt="Zewail City of Science and Technology logo" class="site-logo" src="assets/zewail-city-logo.jpg"> <span class="brand-copy"><strong>Campus Events Guide</strong> <small>Zewail City of Science and Technology</small></span></a>
+        <div class="theme-control">
+          <input aria-label="Toggle dark mode" class="theme-toggle" id="theme-toggle" type="checkbox">
+          <label for="theme-toggle">Dark mode</label>
+        </div>
+        <nav aria-label="Main navigation" class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="event-details.html">Event details</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="registration.html">Register</a>
         </nav>
+      </div>
     </header>
-
     <main>
-        <section>
-            <h2>Tech Innovation Day 2026</h2>
-
-            <img src="assets/tech-innovation.svg" alt="Tech Innovation Day" width="400">
-
-            <p><strong>Date:</strong> 19 November 2026</p>
-            <p><strong>Time:</strong> 10:00 AM - 4:00 PM</p>
-            <p><strong>Location:</strong> Zewail City</p>
-
-            <p>
-                Tech Innovation Day is an opportunity for students to explore
-                new technologies, discover innovative projects, and share ideas.
-                Students can meet other participants and learn about developments
-                in technology and innovation.
-            </p>
-        </section>
-
-        <section>
-            <h2>Event Highlights</h2>
-
-            <ul>
-                <li>Explore student technology projects.</li>
-                <li>Discover new ideas and innovations.</li>
-                <li>Meet students with similar interests.</li>
-                <li>Learn about technology and its applications.</li>
+      <div class="page-width section-space">
+        <section class="detail-hero">
+          <img alt="Tech Innovation Day poster featuring a laptop and robot" class="detail-poster" src="assets/tech-innovation.svg">
+          <div>
+            <p class="eyebrow">FEATURED EVENT · TECHNOLOGY</p>
+            <h1>Tech Innovation Day 2026</h1>
+            <p>Bring ideas to life. Meet student creators, explore software and robotics demos, and learn how technology can solve real problems.</p>
+            <ul class="event-facts">
+              <li>
+                <strong>Date:</strong>
+19 November 2026
+              </li>
+              <li>
+                <strong>Time:</strong>
+10:00 AM–4:00 PM
+              </li>
+              <li>
+                <strong>Venue:</strong>
+Zewail City Campus Auditorium (sample venue)
+              </li>
+              <li>
+                <strong>Entry:</strong>
+Free with registration
+              </li>
             </ul>
+            <a class="button" href="registration.html">Register for free</a>
+          </div>
         </section>
-
-        <section>
-            <h2>Event Audio Preview</h2>
-
-            <p>Listen to the event audio preview below.</p>
-
-            <audio controls>
-                <source src="assets/event-preview.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
+        <section class="content-panel section-space-small">
+          <h2>What to expect</h2>
+          <p>Tech Innovation Day is a sample campus event celebrating practical creativity. Explore student-built applications, see robotics demonstrations, and hear short talks about turning ideas into useful products. The event is suitable for beginners and experienced students alike.</p>
+          <h2>Agenda</h2>
+          <ol class="agenda-list">
+            <li>
+              <time>10:00 AM</time>
+              <span><strong>Welcome and opening</strong> <br> Introduction to the event and student showcase.</span>
+            </li>
+            <li>
+              <time>10:30 AM</time>
+              <span><strong>Student project demos</strong> <br> Explore software, hardware, and robotics projects.</span>
+            </li>
+            <li>
+              <time>12:00 PM</time>
+              <span><strong>Technology talk</strong> <br> Practical lessons from building a project.</span>
+            </li>
+            <li>
+              <time>1:00 PM</time>
+              <span><strong>Networking break</strong> <br> Meet student teams and exchange ideas.</span>
+            </li>
+            <li>
+              <time>2:00 PM</time>
+              <span><strong>Hands-on showcase</strong> <br> Try demos and ask project teams questions.</span>
+            </li>
+            <li>
+              <time>3:30 PM</time>
+              <span><strong>Closing and thanks</strong> <br> Final announcements and wrap-up.</span>
+            </li>
+          </ol>
+          <h2>Event audio preview</h2>
+          <p>Listen to a short original tone preview created for this sample event.</p>
+          <audio controls="" preload="metadata">
+            <source src="assets/event-preview.wav" type="audio/wav">
+Your browser does not support audio playback.
+          </audio>
         </section>
-
-        <section>
-            <h2>Join the Event</h2>
-
-            <p>Interested in attending? Register for Tech Innovation Day 2026.</p>
-
-            <a href="registration.html">Register Now</a>
-            <a href="events.html">Back to Events</a>
+        <section class="form-panel section-space-small">
+          <h2>Leave an event review</h2>
+          <p>This sample form demonstrates browser validation. It does not send or save your submission.</p>
+          <form action="#" class="form-grid" method="get">
+            <div class="form-field">
+              <label for="review-name">Your name *</label>
+              <input id="review-name" maxlength="60" minlength="2" name="review-name" pattern="[A-Za-zÀ-ÿ ]+" placeholder="Enter your name" required="" title="Use letters and spaces only." type="text">
+            </div>
+            <div class="form-field">
+              <label for="review-email">Email address *</label>
+              <input id="review-email" maxlength="100" name="review-email" placeholder="you@example.com" required="" type="email">
+            </div>
+            <div class="form-field full-width">
+              <label for="review-rating">How would you rate the event? *</label>
+              <select id="review-rating" name="review-rating" required="">
+                <option value="">Choose a rating</option>
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Very good</option>
+                <option value="3">3 - Good</option>
+                <option value="2">2 - Fair</option>
+                <option value="1">1 - Needs improvement</option>
+              </select>
+            </div>
+            <div class="form-field full-width">
+              <label for="review-text">Your review *</label>
+              <textarea id="review-text" maxlength="500" name="review-text" placeholder="What did you enjoy? What could improve?" required="" rows="4"></textarea>
+            </div>
+            <div class="form-field full-width">
+              <label for="review-file">Attach a photo (optional)</label>
+              <input accept="image/*" id="review-file" name="review-file" type="file">
+            </div>
+            <div class="form-field full-width">
+              <button class="button" type="submit">Check review form</button>
+            </div>
+          </form>
         </section>
+      </div>
     </main>
-
-    <footer>
-        <p>Campus Events Guide - SW302</p>
-        <p>Student: Shehab Osama | ID: 202402196</p>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <strong>Campus Events Guide · Zewail City</strong>
+          <p>Discover. Connect. Take part.</p>
+        </div>
+        <nav aria-label="Social media links" class="social-links">
+          <a href="https://www.facebook.com/ZewailCity/" rel="noopener noreferrer" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/zewailcity/" rel="noopener noreferrer" target="_blank">Instagram</a>
+          <a href="https://www.linkedin.com/school/zewail-city-of-science-and-technology/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+        </nav>
+        <p class="copyright">© 2026 Campus Events Guide · Student project concept, not an official university service.</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

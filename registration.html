@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Registration form for Tech Innovation Day 2026 at Zewail City." name="description">
+    <title>Register | Campus Events Guide</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a aria-label="Campus Events Guide at Zewail City home" class="site-brand" href="index.html"><img alt="Zewail City of Science and Technology logo" class="site-logo" src="assets/zewail-city-logo.jpg"> <span class="brand-copy"><strong>Campus Events Guide</strong> <small>Zewail City of Science and Technology</small></span></a>
+        <div class="theme-control">
+          <input aria-label="Toggle dark mode" class="theme-toggle" id="theme-toggle" type="checkbox">
+          <label for="theme-toggle">Dark mode</label>
+        </div>
+        <nav aria-label="Main navigation" class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="event-details.html">Event details</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="registration.html">Register</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="page-width section-space">
+        <section class="page-intro">
+          <p class="eyebrow">SAVE YOUR SPOT</p>
+          <h1>Register for Tech Innovation Day 2026</h1>
+          <p class="event-meta"><strong>19 November 2026 · 10:00 AM–4:00 PM · Zewail City Campus Auditorium (sample venue)</strong></p>
+          <p>Entry is free in this sample event. Complete the form to demonstrate HTML5 controls and browser validation. Your information will not be stored or sent.</p>
+        </section>
+        <section class="form-panel">
+          <form action="#" class="form-grid" method="get">
+            <div class="form-field">
+              <label for="attendee-name">Attendee name *</label>
+              <input autocomplete="name" id="attendee-name" maxlength="60" minlength="2" name="attendee-name" pattern="[A-Za-zÀ-ÿ ]+" placeholder="Your full name" required="" title="Use letters and spaces only." type="text">
+            </div>
+            <div class="form-field">
+              <label for="attendee-email">Email address *</label>
+              <input autocomplete="email" id="attendee-email" maxlength="100" name="attendee-email" placeholder="you@example.com" required="" type="email">
+            </div>
+            <div class="form-field">
+              <label for="portfolio-url">Portfolio or profile URL</label>
+              <input id="portfolio-url" maxlength="200" name="portfolio-url" placeholder="https://example.com" type="url">
+            </div>
+            <div class="form-field">
+              <label for="attendee-age">Age</label>
+              <input id="attendee-age" max="100" min="16" name="attendee-age" step="1" type="number" value="20">
+            </div>
+            <div class="form-field">
+              <label for="interest-level">Interest level (1–10)</label>
+              <input id="interest-level" max="10" min="1" name="interest-level" type="range" value="5">
+            </div>
+            <div class="form-field">
+              <label for="arrival-date">Arrival date *</label>
+              <input id="arrival-date" max="2026-11-19" min="2026-11-19" name="arrival-date" required="" type="date" value="2026-11-19">
+            </div>
+            <div class="form-field">
+              <label for="badge-color">Badge color</label>
+              <input id="badge-color" name="badge-color" type="color" value="#087f8c">
+            </div>
+            <div class="form-field">
+              <label for="arrival-time">Expected arrival time *</label>
+              <input id="arrival-time" max="15:30" min="10:00" name="arrival-time" required="" type="time" value="10:00">
+            </div>
+            <div class="form-field">
+              <label for="project-file">Upload project image (optional)</label>
+              <input accept="image/*,.pdf" id="project-file" name="project-file" type="file">
+            </div>
+            <div class="form-field">
+              <label for="event-choice">Event choice *</label>
+              <select id="event-choice" name="event-choice" required="">
+                <option value="">Choose an event</option>
+                <option selected="" value="tech-innovation">Tech Innovation Day 2026</option>
+                <option value="career-fair">Career & Internship Fair</option>
+                <option value="cultural-festival">Campus Cultural Festival</option>
+              </select>
+            </div>
+            <fieldset class="form-field">
+              <legend>Attendance type *</legend>
+              <label class="choice-label"><input checked="" name="attendance-type" required="" type="radio" value="visitor"> Visitor</label>
+              <label class="choice-label"><input name="attendance-type" type="radio" value="presenter"> Project presenter</label>
+            </fieldset>
+            <fieldset class="form-field">
+              <legend>Interests</legend>
+              <label class="choice-label"><input name="interests" type="checkbox" value="software"> Software projects</label>
+              <label class="choice-label"><input name="interests" type="checkbox" value="robotics"> Robotics</label>
+              <label class="choice-label"><input name="interests" type="checkbox" value="talks"> Technology talks</label>
+            </fieldset>
+            <div class="form-field full-width">
+              <label for="access-needs">Access needs or additional notes</label>
+              <textarea id="access-needs" maxlength="500" name="access-needs" placeholder="Share access needs or questions (optional)." rows="4"></textarea>
+            </div>
+            <div class="form-field full-width">
+              <label class="choice-label"><input name="agree" required="" type="checkbox" value="yes"> I confirm that the information above is correct. *</label>
+            </div>
+            <div class="form-field full-width">
+              <button class="button" type="submit">Check registration form</button>
+              <p class="form-note">* Required fields. Browser validation is demonstrated; submissions are not saved.</p>
+            </div>
+          </form>
+        </section>
+        <aside class="contact-panel">
+          <h2>Event contact</h2>
+          <p><strong>Zewail City Campus Events Guide team</strong></p>
+          <p>Email: <a href="mailto:events@gmail.com">events@gmail.com</a></p>
+          <p>Example contact details for this student project; not an official university contact.</p>
+        </aside>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <strong>Campus Events Guide · Zewail City</strong>
+          <p>Discover. Connect. Take part.</p>
+        </div>
+        <nav aria-label="Social media links" class="social-links">
+          <a href="https://www.facebook.com/ZewailCity/" rel="noopener noreferrer" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/zewailcity/" rel="noopener noreferrer" target="_blank">Instagram</a>
+          <a href="https://www.linkedin.com/school/zewail-city-of-science-and-technology/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+        </nav>
+        <p class="copyright">© 2026 Campus Events Guide · Student project concept, not an official university service.</p>
+      </div>
+    </footer>
+  </body>
+</html>

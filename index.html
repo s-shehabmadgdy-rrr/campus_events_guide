@@ -1,52 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus Events Guide</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>Campus Events Guide</h1>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="events.html">Events</a>
-            <a href="event-details.html">Event Details</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="registration.html">Registration</a>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Discover student events at Zewail City with Campus Events Guide." name="description">
+    <title>Home | Campus Events Guide</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a aria-label="Campus Events Guide at Zewail City home" class="site-brand" href="index.html"><img alt="Zewail City of Science and Technology logo" class="site-logo" src="assets/zewail-city-logo.jpg"> <span class="brand-copy"><strong>Campus Events Guide</strong> <small>Zewail City of Science and Technology</small></span></a>
+        <div class="theme-control">
+          <input aria-label="Toggle dark mode" class="theme-toggle" id="theme-toggle" type="checkbox">
+          <label for="theme-toggle">Dark mode</label>
+        </div>
+        <nav aria-label="Main navigation" class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="event-details.html">Event details</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="registration.html">Register</a>
         </nav>
+      </div>
     </header>
-
     <main>
-        <section>
-            <h2>Welcome to Campus Events Guide</h2>
-
-            <p>
-                Discover upcoming events, explore campus activities,
-                and register for events at Zewail City.
-            </p>
-        </section>
-
-        <section>
-            <h2>Featured Event</h2>
-
-            <h3>Tech Innovation Day 2026</h3>
-
-            <p>Date: 19 November 2026</p>
-            <p>Time: 10:00 AM – 4:00 PM</p>
-
-            <a href="event-details.html">View Event Details</a>
-            <a href="registration.html">Register Now</a>
-        </section>
+      <section class="hero page-width">
+        <div class="hero-copy">
+          <p class="eyebrow">ZEWAIL CITY · YOUR CAMPUS COMMUNITY</p>
+          <h1>Find your next <span>campus moment.</span></h1>
+          <p>Discover student showcases, career opportunities, and cultural experiences around Zewail City. Find an event, plan your day, and meet your community.</p>
+          <a class="button" href="events.html">Explore events</a>
+        </div>
+        <img alt="Illustration of a student technology showcase with a laptop and robot" class="hero-image" src="assets/tech-innovation.svg">
+      </section>
+      <section class="page-width section-space">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SAVE YOUR SPOT</p>
+            <h2>Featured campus events</h2>
+          </div>
+          <a class="text-link" href="events.html">View all events →</a>
+        </div>
+        <div class="event-grid">
+          <article class="event-card">
+            <img alt="Tech Innovation Day illustration with a laptop and robot" src="assets/tech-innovation.svg">
+            <div class="card-body">
+              <span class="tag">Technology</span>
+              <h3>Tech Innovation Day 2026</h3>
+              <p class="event-meta">19 November 2026 · 10:00 AM–4:00 PM</p>
+              <p class="event-meta">Zewail City Campus Auditorium (sample venue)</p>
+              <a class="text-link" href="event-details.html">Explore event →</a>
+            </div>
+          </article>
+          <article class="event-card">
+            <img alt="Students meeting employers at a career fair illustration" src="assets/career-fair.svg">
+            <div class="card-body">
+              <span class="tag tag-purple">Careers</span>
+              <h3>Career & Internship Fair</h3>
+              <p class="event-meta">24 November 2026 · 11:00 AM–3:00 PM</p>
+              <p class="event-meta">Innovation Hall (sample venue)</p>
+              <a class="text-link" href="events.html#career-fair">Explore event →</a>
+            </div>
+          </article>
+          <article class="event-card">
+            <img alt="Campus cultural festival with art and music illustration" src="assets/cultural-festival.svg">
+            <div class="card-body">
+              <span class="tag tag-orange">Culture</span>
+              <h3>Campus Cultural Festival</h3>
+              <p class="event-meta">2 December 2026 · 12:00 PM–6:00 PM</p>
+              <p class="event-meta">Central Courtyard (sample venue)</p>
+              <a class="text-link" href="events.html#cultural-festival">Explore event →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="callout page-width">
+        <div>
+          <p class="eyebrow">THE MAIN EVENT</p>
+          <h2>Ideas become real when we share them.</h2>
+          <p>Join Tech Innovation Day for student projects, robotics demos, and practical technology talks.</p>
+        </div>
+        <a class="button button-light" href="registration.html">Register for free</a>
+      </section>
     </main>
-
-    <footer>
-        <p>Campus Events Guide - SW302</p>
-        <p>Student: Shehab Osama | ID: 202402196</p>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <strong>Campus Events Guide · Zewail City</strong>
+          <p>Discover. Connect. Take part.</p>
+        </div>
+        <nav aria-label="Social media links" class="social-links">
+          <a href="https://www.facebook.com/ZewailCity/" rel="noopener noreferrer" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/zewailcity/" rel="noopener noreferrer" target="_blank">Instagram</a>
+          <a href="https://www.linkedin.com/school/zewail-city-of-science-and-technology/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+        </nav>
+        <p class="copyright">© 2026 Campus Events Guide · Student project concept, not an official university service.</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>

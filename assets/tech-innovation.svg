@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+  <title>Tech Innovation Day: laptop and robot</title>
+  <defs>
+    <linearGradient id="g" x2="1" y2="1">
+      <stop stop-color="#102b46"/>
+      <stop offset="1" stop-color="#087f8c"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" rx="28" fill="url(#g)"/>
+  <circle cx="720" cy="105" r="105" fill="#5de0dc" opacity=".13"/>
+  <text x="65" y="75" fill="white" font-family="Arial" font-size="30" font-weight="bold">TECH INNOVATION DAY</text>
+  <rect x="150" y="170" width="430" height="260" rx="18" fill="#e9f6fb"/>
+  <rect x="170" y="190" width="390" height="210" rx="8" fill="#152b43"/>
+  <path d="M210 240h170M210 275h230M210 310h190" stroke="#5de0dc" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="490" cy="245" r="24" fill="#f6bd60"/>
+  <path d="M130 440h470l-35 25H165z" fill="#bdd9e5"/>
+  <rect x="625" y="250" width="130" height="150" rx="28" fill="#f5f8fc"/>
+  <rect x="643" y="276" width="94" height="62" rx="15" fill="#17344d"/>
+  <circle cx="666" cy="304" r="8" fill="#5de0dc"/>
+  <circle cx="713" cy="304" r="8" fill="#5de0dc"/>
+  <path d="M665 360q25 20 50 0M690 250v-32m-25 0h50" stroke="#087f8c" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <text x="65" y="510" fill="#c9f8f4" font-family="Arial" font-size="23">IDEAS • PROJECTS • PEOPLE</text>
+</svg>
